@@ -8,16 +8,29 @@ Sterling, like Alloy, is a self-contained executable which includes the Kodkod
 model finder, a variety of SAT solvers, the standard Alloy library, and a
 collection of tutorial examples. Additionally, the web interface is included
 so that a network connection is not needed to use Sterling. To execute, simply
-double-click on the jar file, or type `java -jar Sterling-0.2.0.jar`,
+double-click on the jar file, or type `java -jar Sterling-0.3.0.jar`,
 replacing the version to match the one you have downloaded.
 
 ## Current Release
 
-### [Sterling 0.2.0](https://github.com/alloy-js/sterling/releases/tag/v0.2.0)
+### [Sterling 0.3.0](https://github.com/alloy-js/sterling/releases/tag/v0.3.0)
 
 * ***Beta Release***
-* View instance as a set of tables
-* Request next solution from browser
+* View Alloy instances in browser
+* Graph view displays snapshot
+  * Projections
+  * Animations to show updates to layout
+  * Pan/zoom
+* Table view displays tables
+  * Compact view
+  * Show/hide builtins
+  * Show/hide empty tables
+* Tree view displays hierarchical tree
+  * Expand/collapse tree nodes
+  * Shift+scroll to update spacing between levels
+  * Animations to show updates to layout
+* Source view display source models
+* Next button requests next solution from Alloy
 
 ## Previous Releases
 
