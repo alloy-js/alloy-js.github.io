@@ -1,10 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
 # Welcome
 
-This is the home page. It will have a description of Sterling.
+Sterling is an extension to [Alloy](http://alloytools.org/) that allows
+instances to be displayed in a web-browser in addition to the built-in
+visualizer. 

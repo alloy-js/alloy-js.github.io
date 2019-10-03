@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Download
+permalink: /download/
 ---
 
 Sterling, like Alloy, is a self-contained executable which includes the Kodkod
