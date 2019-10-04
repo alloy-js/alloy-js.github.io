@@ -30,14 +30,27 @@ required. Sterling has been tested in both Firefox and Chrome.
 ## Open Source
 
 Sterling is released under the MIT License. Additionally, Sterling makes use of
-the following open source libraries.
+the following open source libraries in production and in development.
+
+#### Sterling
 
 * [Alloy](http://alloytools.org/) - An open source language and analyzer for
   software modeling.
+* [Spark](http://sparkjava.com/) - A micro framework for creating web
+  applications in Kotlin and Java 8 with minimal effort.
+* [Gradle Shadow Plugin](https://imperceptiblethoughts.com/shadow/) - A gradle
+  plugin for combining dependency classes and resources with a project into a
+  single output Jar.
+  
+#### Sterling-JS
+
 * [Dagre](https://github.com/dagrejs/dagre) - A JavaScript library used to
   lay out directed graphs.
 * [D3](https://d3js.org/) - A JavaScript library for manipulating documents 
   based on data.
+* [Rollup](https://rollupjs.org/) - A module bundler for JavaScript.
+* [Typescript](http://www.typescriptlang.org/) - A typed superset of JavaScript
+  that compiles to plain JavaScript. 
   
 ## Authors
 
