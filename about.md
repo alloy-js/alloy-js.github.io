@@ -8,7 +8,8 @@ Sterling combines Alloy with web-based visualizations, providing both basic
 Alloy visualization capabilities and a robust platform for the development of 
 domain specific visualizations of Alloy instances.
 
-Sterling originates with a smaller project, [Alloy Instances](https://alloy-js.herokuapp.com/),
+The idea for Sterling was sparked by discussions at the 2018 Workshop on the
+Future of Alloy. Initial ideas were put to the test in [Alloy Instances](https://alloy-js.herokuapp.com/),
 which allows users to export XML files from Alloy and develop custom visualizations
 in the browser. The Alloy Instances tool provides a styling language and sharing
 platform that is useful for development of visualizations once a model has been
