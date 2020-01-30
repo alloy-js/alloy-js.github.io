@@ -3,9 +3,9 @@ layout: home
 title: Welcome
 ---
 
-Sterling is a web-based visualizer for [Alloy](http://alloytools.org), providing
-enhanced graph, table, and tree views as well as numerous other views to aid in
-the understanding of Alloy instances. It is included in a custom build of Alloy, 
+Sterling is a web-based visualizer for [Alloy](http://alloytools.org), providing 
+enhanced graph, table, and tree views, as well as customizable views, to make 
+instances easier to understand. It is included in a custom build of Alloy, 
 which can be downloaded [here](download.md).
 
 > A preview of the Sterling 1.0 release is now available! This release brings
