@@ -1,0 +1,92 @@
+.wrapper-tour {
+  margin: auto;
+  .post {
+    margin: auto;
+    .post-header {
+      margin: auto;
+      padding: 0 30px;
+      width: 740px;
+    }
+  }
+}
+
+.tour {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .row {
+    display: flex;
+    justify-content: center;
+    .fill-row {
+      display: flex;
+      min-width: calc(800px - 2em);
+      max-width: calc(800px - 2em);
+      margin: 0 auto;
+    }
+    + p {
+      margin-top: 1em;
+    }
+    + .row, + h2, + h3 {
+      margin-top: 2em;
+    }
+  }
+
+  div {
+    margin: 0 0.75em;
+  }
+
+  .vr {
+    width: 0;
+    border-left: 1px solid #ccc;
+  }
+
+  img, video {
+    margin: 0;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    &.full {
+      max-width: 900px;
+    }
+  }
+
+  .text {
+    flex: 1 0 auto;
+    max-width: 300px;
+    &.fill {
+      flex: 1 1 auto;
+      max-width: none;
+    }
+  }
+
+  > p, h2, h3 {
+    width: 740px;
+    padding: 0 30px;
+  }
+
+  p, h2, h3 {
+    margin: 0 auto;
+    + p, + h2, + h3 {
+      margin-top: 1em;
+    }
+    + ul {
+      margin-top: 1em;
+    }
+  }
+
+  p + .row {
+    margin-top: 2em;
+  }
+
+  > hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 3em auto;
+    width: 740px;
+  }
+
+
+
+}
